@@ -1,9 +1,10 @@
 
 /**
- * Write a description of CaesarCipherTwo here.
+ * This other class does pretty much the same things as the previous one, the difference is that here I Applied some new concepts really fundamentals to Object-Oriented   
+ * Programmin. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Gabriel Antoniolli
+ * @version 2
  */
 import edu.duke.*;
 import java.util.*;
