@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=testNewCeasarCipher
-comment1.params=freqs
-comment1.target=int\ maxIndex(int[])
-comment2.params=message
-comment2.target=int[]\ countLetters(java.lang.String)
-comment3.params=
-comment3.target=void\ simpleTest()
-numComments=4
