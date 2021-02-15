@@ -1,9 +1,11 @@
 
 /**
- * Write a description of CaesarChipher here.
+ * This is the Caesar Cipher Code. Pretty much, the goal is to compare an Alphabet with an Encrypted Alphabet which is the alphabet starting from another index,
+ * the index will depend on the key that the user want to use to encrypt the desired message. After having the two alphabets, I needed to encrypt letter by letter of the message
+ * the right way to do that is to compare the index of each letter between the two alphabets, and then set the letter at that index to an encrypted letter.
+ *
+ * @Gabriel Antoniolli 
  * 
- * @author (your name) 
- * @version (a version number or a date)
  */
 import java.util.*;
 import edu.duke.*;
@@ -45,7 +47,7 @@ public class CaesarChipher {
     System.out.println(encrypt("Can you imagine life WITHOUT the internet AND computers in your pocket?", 15));
     }
     
-    
+    // Here the task got a bit more challenging, the user now has to choose 2 keys to encrypt the message. in other words, the encryption key will alternate letter by letter.
    private String encryptTwoKeys(String input, int key1, int key2){
     
     StringBuilder encrypted = new StringBuilder(input);
@@ -88,7 +90,7 @@ public class CaesarChipher {
  }
 
 public void testTwoKeys(){
-
+// testing an encryption of the sentence below.
 System.out.println(encryptTwoKeys("Can you imagine life WITHOUT the internet AND computers in your pocket?", 21,8));
 
 }
@@ -110,7 +112,12 @@ int[] counts = new int[26];
     }
     return counts;
 }
-
+/*
+* The decyption steps are a bit more challenging, the process consist in find the most frequent letter in the language that your message is written, in the situation below,
+* because it was in English, the most frequent letter in English is "e", so we took as a index 4 in a array and used it to make a decryption key.
+*
+*
+*/
 public String decrypt(String encrypted){
 
 int[] freqs = countLetters(encrypted);
