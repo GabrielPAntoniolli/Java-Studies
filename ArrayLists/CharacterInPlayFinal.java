@@ -1,9 +1,10 @@
 
 /**
- * Write a description of CharacterInPlayFinal here.
+ * The goal is to check in a file for specific names, if these names are already in the "names" arraylist, we add 1 at the "counts" arraylist and if not, 
+ * we add the name and 1 to names and counts respectively. This way we will be able to see all the names listed in a file and how many time they appear.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Gabriel Antoniolli 
+ * 
  */
 import java.util.*;
 import edu.duke.*;
