@@ -1,2 +1,2 @@
 # Java-Studies
-the place where I going to store all my Java Projects
+the place where I store all my Java Projects.
