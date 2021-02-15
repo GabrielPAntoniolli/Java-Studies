@@ -1,9 +1,9 @@
 
 /**
- * Write a description of randonDices here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * 
+ * @author Gabriel Antoniolli
+ * 
  */
 import edu.duke.*;
 import java.util.*;
