@@ -1,2 +1,2 @@
 # Java-Studies
-the place where I store all my Java Projects.
+Some algorithm exercices in java.
